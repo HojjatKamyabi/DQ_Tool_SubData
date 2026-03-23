@@ -232,7 +232,7 @@ commands to install and load the library: 
 ```{python}
 #| output: false
 # Installing subdata
-!pip install subdata
+!pip install subdata "numpy<2.0.0" "pandas<2.2.0"
 ```
 
 ```{python}
